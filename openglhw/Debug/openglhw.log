@@ -1,0 +1,50 @@
+﻿  stdafx.cpp
+  InitShader.cpp
+  FirstOpenGLDrawCircleWithTimer.cpp
+d:\profiles\bxs9775\source\repos\dsa2\openglhw\openglhw\firstopengldrawcirclewithtimer.cpp(292): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+  Camera.cpp
+  Generating Code...
+Camera.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "public: void __thiscall Camera::computeMatricesFromInputs(void)" (?computeMatricesFromInputs@Camera@@QAEXXZ)
+Camera.obj : error LNK2019: unresolved external symbol _glfwGetWindowSize referenced in function "public: void __thiscall Camera::computeMatricesFromInputs(void)" (?computeMatricesFromInputs@Camera@@QAEXXZ)
+Camera.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "public: void __thiscall Camera::computeMatricesFromInputs(void)" (?computeMatricesFromInputs@Camera@@QAEXXZ)
+Camera.obj : error LNK2019: unresolved external symbol _glfwGetCursorPos referenced in function "public: void __thiscall Camera::computeMatricesFromInputs(void)" (?computeMatricesFromInputs@Camera@@QAEXXZ)
+Camera.obj : error LNK2019: unresolved external symbol _glfwSetCursorPos referenced in function "public: void __thiscall Camera::computeMatricesFromInputs(void)" (?computeMatricesFromInputs@Camera@@QAEXXZ)
+Camera.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function "public: void __thiscall Camera::computeMatricesFromInputs(void)" (?computeMatricesFromInputs@Camera@@QAEXXZ)
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol _glfwGetTime
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function _main
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol _glfwSetWindowTitle referenced in function "double __cdecl calcFPS(double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?calcFPS@@YANNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewGetAttribLocation
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewGetUniformLocation
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewUniform3f
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewUniformMatrix4fv
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewDrawElementsInstanced
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribDivisor
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+FirstOpenGLDrawCircleWithTimer.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+InitShader.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+lib/glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+lib/glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+D:\Profiles\bxs9775\source\Repos\DSA2\openglhw\Debug\openglhw.exe : fatal error LNK1120: 39 unresolved externals
